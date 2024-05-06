@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header, footer, main {
+            padding: 20px;
+        }
+
+        header, footer {
+            background-color: #2b2a4c;
+            color: #fff;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+        }
+
+        article {
+            flex: 2;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #ccc;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portofolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>About Me</h2>
+                <p>
+                Hi Everyone, I am <br>
+<b>Cantika Firalya</b> 
+<br>
+I am Web Developer currently pursuing a degree in Technology Information in Computer Science, Brawijaya University</p>
+            </article>
+            <aside>
+                <h2>Photo</h2>
+                <img src="https://live.staticflickr.com/3898/14168987399_092dd638f6_b.jpg" alt="Image">
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; 2024 Cantika Firalya</p>
+        </footer>
+    </div>
+</body>
+</html>
