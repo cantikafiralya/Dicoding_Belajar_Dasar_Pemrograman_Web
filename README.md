@@ -2,10 +2,14 @@
 # Dicoding - Belajar Dasar Pemrograman Web
 
 
-Submission: Tugas Akhir Membuat Website 
+Submission:
+Tugas Akhir Membuat Website 
 
-Website CV sederhana :
+Website CV sederhana:
 https://cantikafiralya.github.io/Dicoding_Belajar_Dasar_Pemrograman_Web/
+
+Dicoding Academy Certificate:
+https://www.dicoding.com/certificates/MEPJNKOG4X3V
 
 ## Kriteria
 1. Terdapat elemen Header, Footer, Main, Article, dan Aside.
